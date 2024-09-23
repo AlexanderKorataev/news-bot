@@ -1,5 +1,5 @@
 from aiogram import Router, types
-from bot.database import Database
+from src.database import Database
 
 router = Router()
 db = Database(mongo_uri='mongodb://mongo:27017')
